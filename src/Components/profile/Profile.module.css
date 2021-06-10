@@ -1,16 +1,18 @@
 .profile {
   margin: 0 auto;
-  width: 650px;
+  width: 500px;
   height: 520px;
   border-radius: 20px;
   margin-top: 100px;
 }
 .description {
+  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #d4d9df;
-  border-radius: 20px;
+  background-color: rgba(186, 194, 209, 0.692);
+  border-radius: 100%;
+  border: 1px solid;
 }
 .img_avatar {
   margin-top: 50px;
@@ -28,14 +30,14 @@
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 10px;
-  color: rgb(36, 170, 119);
+  color: rgb(143, 76, 0);
   font-size: 20px;
 }
 .location {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: rgb(75, 189, 145);
+  color: rgb(143, 76, 0);
   font-size: 20px;
 }
 .stats {
