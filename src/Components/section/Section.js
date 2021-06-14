@@ -3,7 +3,7 @@ import style from "./Section.module.css";
 const Section = ({ children, title }) => {
   return (
     <section className={style.section}>
-      <h2 className={style.section - title}>{title.toUpperCase()}</h2>
+      <h2 className={style.section_title}>{title.toUpperCase()}</h2>
       {children}
     </section>
   );
