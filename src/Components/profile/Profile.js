@@ -30,16 +30,12 @@ const Profile = ({ name, tag, location, avatar, stats }) => {
   );
 };
 
-Profile.defaultProps = {
-  avatar: "https://www.flaticon.com/svg/static/icons/svg/3784/3784184.svg",
-  name: "User Name",
-};
-
 Profile.prototype = {
   name: PropTypes.string.isRequired,
   tag: PropTypes.string,
   location: PropTypes.string.isRequired,
   avatar: PropTypes.string,
-  stats: PropTypes.string,
+  stats: PropTypes.arrayOf,
+  // stats: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 export default Profile;
